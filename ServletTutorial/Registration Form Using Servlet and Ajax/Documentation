@@ -9,3 +9,6 @@ Structure of program this structure itself created by netbeans ide
   
   
   Also make a folder for all the images.
+  
+   *** web.xml must be present under web page unde WEB-INF folder
+   *** in web.xml we have to do all the mapping of the servlet.
