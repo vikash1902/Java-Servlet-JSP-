@@ -1,0 +1,11 @@
+Structure of program this structure itself created by netbeans ide 
+  web pages (here create all jsp and html file)
+  remote file 
+  Source Packages (here create all action classes)
+  Test Packages
+  Libraries (here add all the required jar files ex : jdbc connector, server etc)
+  Tesst Libraries
+  Configurations files
+  
+  
+  Also make a folder for all the images.
