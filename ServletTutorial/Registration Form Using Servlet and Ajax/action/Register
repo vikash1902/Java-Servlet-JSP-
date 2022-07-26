@@ -25,11 +25,7 @@ public class Register extends HttpServlet {
             String password = request.getParameter("user_password");
             String email = request.getParameter("user_email");
             Part part = request.getPart("image");
-            out.println("hello after Part");
-            out.println(part.getSubmittedFileName());
-            out.println("hello after Part");
-
-            // Connection.....
+           // Connection.....
             try {
                 Thread.sleep(3000);
                 Class.forName("org.postgresql.Driver");
@@ -41,10 +37,8 @@ public class Register extends HttpServlet {
                 ps.setString(1, name);
                 ps.setString(2, password);
                 ps.setString(3, email);
-  //              ps.setString(4, filename);
-
-    //            ps.executeUpdate();
-                out.println("done");
+                ps.executeUpdate();
+               
 
             } catch (Exception e) {
                 e.printStackTrace();
