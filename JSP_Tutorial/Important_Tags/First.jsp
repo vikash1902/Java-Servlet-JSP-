@@ -34,7 +34,7 @@
             out.println("Second Element:  " + b +"<br>");
             out.println("sum of the elements:  " + dosum());
             out.println("<br>");
-            out.println(reverse());
+            out.println(" Reverce of String is " + reverse());
         %>
         
 <!--        <%=%> Expression tag this used for printing output on the browser -->
