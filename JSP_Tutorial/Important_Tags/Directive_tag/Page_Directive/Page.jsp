@@ -18,3 +18,18 @@
         </h1>
     </body>
 </html>
+
+
+// The Different Page Directive methods
+1 Language
+2 Extends
+3 Import
+4 ContentType
+5 Session
+6 isThreadSafe
+7 autoFlush
+8 buffer
+9 isErrorPage
+10 PageEncoding
+11 errorPage
+isELIgonored
